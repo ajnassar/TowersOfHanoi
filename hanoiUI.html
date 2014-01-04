@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title> Hanoi! </title>
+
+		<link rel="stylesheet" type="text/css" href="hanoiUI.css">
+
+	  <script type="application/javascript"
+	   src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js">
+	  </script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	  <script type="application/javascript" src="hanoi.js"></script>
+
+		<script type="application/javascript" src="hanoiUI.js"></script>
+
+		<script>
+		$(function(){
+			var g = new Hanoi.Game();
+			var hanoiUI = new Hanoi.UI(g, $('.tower'));
+		});
+		</script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="tower0" class="tower" data-val="0"><center>1</center></div>
+			<div id="tower1" class="tower" data-val="1"><center>2</center></div>
+			<div id="tower2" class="tower" data-val="2"><center>3</center></div>
+		</div>
+		<div id = "winner">
+			<h1 id ="winner-words"></h1>
+		</div>
+	</body>
+</html>

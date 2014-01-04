@@ -1,0 +1,41 @@
+.tower {
+	background-color: yellowgreen;
+	border: black;
+	border-width: 5px;
+	border-style: solid;
+	height: 250px;
+	width: 100px;
+	float: left;
+	box-sizing: border-box;
+	position: relative;
+}
+
+
+.disc1{
+	background-color: pink;
+	height: 25px;
+	width: 25%;
+	position: absolute;
+	bottom: 50px;
+	left: 12.5%;
+}
+
+
+.disc2{
+	background-color: orange;
+	height: 25px;
+	width: 50%;
+	position: absolute;
+	bottom: 25px;
+	left: 12.5%;
+}
+
+
+.disc3{
+	background-color: blue;
+	height: 25px;
+	width: 75%;
+	position: absolute;
+	bottom: 0px;
+	left: 12.5%;
+}
